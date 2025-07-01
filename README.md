@@ -21,3 +21,9 @@ Thus, feedback is welcome, but please no nits or pedantry. Ain't nobody got time
 ## License
 
 [Apache-2.0 License](LICENSE)
+
+## Use on Mac M1:
+ ```shell
+docker buildx build --platform linux/amd64 -t quay-its.epfl.ch/svc0166/mm-docker-gs-ping:latest -f Dockerfile.multistage .
+
+```
